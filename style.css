@@ -1,0 +1,246 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    background: linear-gradient(to top, rgb(0,0,0,0.3), rgb(0,0,0,0.3)), url(/img/masuk-background.jpg) no-repeat center center fixed;
+    background-position: 0% 0%;
+    background-size: cover;
+}
+
+body {
+    min-height: 100%;
+    font-family: 'Lato';
+    letter-spacing: 0.2px;
+}
+
+.logo {
+    width: 20%;
+    min-width: 163px;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.masuk-daftar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    width: 449px;
+    min-height: 400px;
+    background: rgb(24, 26, 28, 0.84);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+.card-header-heading {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    flex: 1;
+}
+
+.card-header-description {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    flex: 1;
+}
+
+.card-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.card-field-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.card-field-label {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.card-field-input-container {
+    position: relative;
+}
+
+.card-field-input {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Lato";
+    text-align: left;
+    background: transparent;
+    border-radius: 24px;
+    border-width: 1px;
+    border-color: #E7E3FC3B;
+    padding: 14px 20px 14px 20px;
+    color: #C1C2C4;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.card-field-icon {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    transform: translateY(-50%);
+
+}
+
+.card-field-show-password:hover {
+    cursor: pointer;
+}
+
+.card-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.card-links p {
+    color: #C1C2C4;
+}
+
+.card-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.card-links a:hover {
+    color: #C1C2C4;
+}
+
+.card-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 145px;
+}
+
+.card-buttons p {
+    color: #C1C2C4;
+}
+
+.card-buttons button {
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: 600;
+    color: white;
+    padding: 14px 20px 14px 20px;
+    border-radius: 24px;
+    border-width: 1px;
+    border-color: #E7E3FC3B;
+    background: transparent;
+}
+
+.card-buttons button:hover {
+    cursor: pointer;
+}
+
+.card-buttons .card-button-main {
+    background: rgba(61, 65, 66, 1);
+}
+
+.card-button-with-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.card-button-with-icon img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        min-width: 306px;
+        width: 80%;
+        border-radius: 8px;
+        padding: 24px;
+    }
+
+    .logo {
+        width: 35%;
+        min-width: 94px;
+    }
+
+    .card-header {
+        height: 60px;
+    }
+    
+    .card-header-heading {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .card-header-description {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .card-field-label {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .card-field-input {
+        font-size: 12px;
+        border-radius: 12px;
+        padding: 8.09px, 11.55px, 8.09px, 11.55px;
+    }
+
+    .card-field-icon {
+        width: 18px;
+    }
+
+    .card-links {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .card-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        height: 125px;
+    }
+    
+    .card-buttons p {
+        color: #C1C2C4;
+        font-size: 12px;
+    }
+    
+    .card-buttons button {
+        font-size: 12px;
+        font-weight: 600;
+        padding: 8.09px, 11.55px 8.09px, 11.55px;
+    }
+}
