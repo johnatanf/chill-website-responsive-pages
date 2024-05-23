@@ -2,7 +2,13 @@ html, body {
     height: 100%;
 }
 
-html {
+.background-daftar {
+    background: linear-gradient(to top, rgb(0,0,0,0.3), rgb(0,0,0,0.3)), url(/img/daftar-background.jpg) no-repeat center center fixed;
+    background-position: 0% 50%;
+    background-size: cover;
+}
+
+.background-masuk {
     background: linear-gradient(to top, rgb(0,0,0,0.3), rgb(0,0,0,0.3)), url(/img/masuk-background.jpg) no-repeat center center fixed;
     background-position: 0% 0%;
     background-size: cover;
