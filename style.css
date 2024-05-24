@@ -287,7 +287,7 @@ body {
 }
 
 .film-section {
-    background: red;
+    background: transparent;
     padding: 40px 80px 40px 80px;
 }
 
@@ -296,6 +296,116 @@ body {
     font-size: 32px;
     line-height: 35.2px;
     color: rgba(255, 255, 255, 1);
+    margin-bottom: 30px;
+}
+
+.film-section-landscape {
+    position: relative;
+}
+
+.film-section-landscape-films {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.film-section-arrow-buttons {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.film-landscape-item {
+    position: relative;
+    min-width: 200px;
+    width: 24%;
+}
+
+.film-landscape-item > img {
+    width: 100%;
+}
+
+.film-landscape-item-text-container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.film-landscape-item-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+}
+
+.film-landscape-item-rating-container {
+    display: flex;
+    width: 55px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.film-landscape-item-rating-container > img {
+    width: 16px;
+}
+
+.film-landscape-item-rating {
+    color: rgba(255, 255, 255, 1);
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+.film-section-portrait {
+    position: relative;
+}
+
+.film-section-portrait-films {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.film-portrait-item {
+    position: relative;
+    min-width: 180px;
+    width: 19%;
+}
+
+.film-portrait-item > .film-portrait-item-poster {
+    width: 100%;
+}
+
+.film-portrait-item-episode-baru-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.film-portrait-item-top-10-label {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+.film-portrait-item-text-container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .info {
@@ -330,6 +440,29 @@ body {
 .info-button {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(34, 40, 42, 1);
+}
+
+.media-button {
+    background: rgba(47, 51, 52, 1);
+	color: inherit;
+	border: none;
+	padding: 10px;
+    border-radius: 50%;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.media-button:hover {
+    background: rgba(0,0,0,1);
+}
+
+.media-button-left {
+    transform: translateX(-50%);
+}
+
+.media-button-right {
+    transform: translateX(50%);
 }
 
 .footer {
