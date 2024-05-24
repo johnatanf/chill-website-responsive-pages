@@ -14,6 +14,10 @@ html, body {
     background-size: cover;
 }
 
+.background-beranda {
+    background: rgba(24, 26, 28, 1);
+}
+
 body {
     min-height: 100%;
     font-family: 'Lato';
@@ -181,6 +185,204 @@ body {
 .card-button-with-icon img {
     width: 20px;
     margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    width: 100%;
+    padding: 25px 80px 25px 80px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-logo {
+    width: 100px;
+}
+
+.navbar-logo-links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    max-width: 600px;
+}
+
+.navbar-avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+}
+
+.navbar-logo-links-container > li {
+    font-weight: 500;
+}
+
+.section-hero {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    background: url(/img/hero-section-background.png) center center;
+    background-size: cover;
+    min-height: 587px;
+}
+
+.section-hero-content {
+    position: absolute;
+    margin: 0 80px;
+    min-width: 668px;
+    top: 50%;
+}
+
+.section-hero-content > * {
+    margin-bottom: 50px;
+}
+
+.section-hero-content-heading-description {
+    width: 40%;
+    min-width: 668px;
+}
+
+.section-hero-content-heading-description > * {
+    margin-bottom: 20px;
+}
+
+.section-hero-content-heading-description > h1 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.section-hero-content-heading-description > p {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.2px;
+}
+
+.section-hero-media-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-hero-media-buttons-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    min-width: 350px;
+}
+
+.film-section {
+    background: red;
+    padding: 40px 80px 40px 80px;
+}
+
+.film-section-heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35.2px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.info {
+    border: 1px solid rgba(193, 194, 196, 1);
+    border-radius: 50%;
+    color: rgba(193, 194, 196, 1);
+    padding: 10px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: 700;
+    line-height: 22.4px;
+    border: 1px solid #000000;
+    border-radius: 48px;
+    letter-spacing: 0.2px;
+    padding: 12px 26px;
+}
+
+.button > * {
+    margin: 0 5px;
+}
+
+.start-button {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(25, 45, 183, 1);
+}
+
+.info-button {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(34, 40, 42, 1);
+}
+
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    width: 100%;
+    padding: 25px 80px 25px 80px;
+    border-top: 1px solid rgba(231, 227, 252, 0.23);
+}
+
+.footer-genre {
+    width: 60%;
+    min-width: 514px;
+}
+
+.footer-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-rows: repeat(4, 30px);
+    grid-auto-flow: column;
+}
+
+.footer-grid-container > li > a {
+    color: rgba(193, 194, 196, 1);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-grid-container > li > a:hover {
+    color: #FFFFFF;
+}
+
+.footer-logo-copyright > img {
+    width: 163px;
+    margin-bottom: 8px;
+}
+
+.footer-logo-copyright > p {
+    color: rgba(193, 194, 196, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.4px;
+}
+
+.footer-list-heading {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 15px;
 }
 
 @media (max-width: 768px) {
