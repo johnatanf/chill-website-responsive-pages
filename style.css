@@ -806,7 +806,7 @@ body {
 
     .film-portrait-item {
         position: relative;
-        min-width: 30%;
+        min-width: 30%;.
         width: 30%;
         margin-right: 20px;
     }
@@ -814,5 +814,21 @@ body {
     .navbar-avatar-container > .avatar-dropdown {
         display: none;
         font-size: 10px;
+    }
+
+    .footer {
+        padding: 30px 40px;
+    }
+
+    .footer-logo-copyright > img {
+        width: 100px;
+        margin-bottom: 8px;
+    }
+    
+    .footer-logo-copyright > p {
+        color: rgba(193, 194, 196, 1);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.4px;
     }
 }
