@@ -816,6 +816,14 @@ body {
         font-size: 10px;
     }
 
+    .film-portrait-item-episode-baru-label {
+        width: 65px;
+    }
+    
+    .film-portrait-item-top-10-label {
+        width: 20px;
+    }
+
     .footer {
         padding: 30px 40px;
     }
